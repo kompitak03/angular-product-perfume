@@ -18,7 +18,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `npm run test` to execute the unit tests via [Jest](https://jestjs.io/).\
 Run `npm run test:watch` to execute the unit tests in watch mode\
-Run `npm run test:coverage` to execute the unit tests coverage log\
+Run `npm run test:coverage` to execute the unit tests coverage log
 
 ## Running end-to-end tests
 
