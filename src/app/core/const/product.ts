@@ -2,8 +2,8 @@ import { ProductDetails } from '../models/product-details.model';
 import { ProductImage } from '../models/product-image.model';
 
 export const Product: ProductDetails & ProductImage = {
-  mobileImage: '/assets/images/image-product-mobile.jpg',
-  desktopImage: '/assets/images/image-product-desktop.jpg',
+  mobileImage: './assets/images/image-product-mobile.jpg',
+  desktopImage: './assets/images/image-product-desktop.jpg',
   category: 'Perfume',
   title: 'Gabrielle Essence Eau De Parfum',
   details:
