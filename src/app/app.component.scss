@@ -1,0 +1,29 @@
+@import "./../scss/mixin";
+@import "./../scss/variables";
+
+$content-padding: rem(24);
+$content-spacing: rem(16);
+
+main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  padding: rem(14);
+}
+
+/* product styles */
+.product {
+  background-color: $neutral-100;
+  border-radius: rem(8);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: rem(600);
+}
+
+@media (min-width: rem(600)) {
+  .product {
+    flex-direction: row;
+  }
+}
